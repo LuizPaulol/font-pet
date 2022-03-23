@@ -1,0 +1,164 @@
+body{
+height: 1000px;
+background-color: #19201d;
+background-repeat: none;
+background-color: rgb(32, 30, 30);
+margin: 0;
+}
+
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+}
+
+.logo{
+    width: 250px;
+    display: block;
+    float: left;
+    margin: -100px
+}
+
+
+ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li{
+    margin-right: 50px;
+}
+
+a{
+    color: rgb(226, 168, 9);
+    text-decoration: none;
+    font-family:Arial black, Helvetica, sans-serif;
+}
+
+
+main{
+    width: 70%;
+    display: table;
+    margin: 100px auto 0 auto;
+}
+
+.card-container{
+width: 270px;
+display: table;
+float: left;
+margin: 60px 60px 0 auto;
+}
+
+.card{
+    display: table;
+    background-color: rgb(224, 167, 12);
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px rgba(0 0 0 0.05);
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+
+.card .natasha{
+    border-radius: 6px;
+    border: 8px solid rgb(18, 18, 19);
+    display: block;
+    box-shadow: 8px 8px 12px rgba(0 0 0 0.05);
+}
+
+.card .oliver {
+    border-radius: 6px;
+    border: 8px solid rgb(18, 18, 19);
+    display: block;
+    box-shadow: 8px 8px 12px rgba(0 0 0 0.05);
+    
+}
+
+
+.card .chiquinha{
+    border-radius: 6px;
+    border: 8px solid rgb(18, 18, 19);
+    display: block;
+    box-shadow: 8px 8px 12px rgba(0 0 0 0.05);
+}
+
+
+.card .card-body p{
+    width: 100%;
+    display: table;
+    margin-top: 12px;
+    margin-left: -5px;
+    
+}
+
+
+.card .card-body h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 24px;
+    color:rgb(63, 57, 57);
+    margin-top: 10px;
+    
+    
+}
+
+.card .card-footer{
+    width: 100%;
+    display: table;
+}
+
+.card .card-footer .btn{
+    width: 100%;
+}
+
+.btn{
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background-color: #19201d;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 0 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    margin: 90px 90px 0 90px;
+}
+
+p{
+    color: rgb(20, 19, 19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+text-align: center;
+    margin-left: 5px;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+
+
